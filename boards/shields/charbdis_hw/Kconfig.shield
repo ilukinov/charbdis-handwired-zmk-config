@@ -1,0 +1,2 @@
+config SHIELD_CHARBDIS_HW
+    def_bool $(shields_list_contains,charbdis_hw)

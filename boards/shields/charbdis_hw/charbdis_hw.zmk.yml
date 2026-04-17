@@ -1,0 +1,12 @@
+file_format: "1"
+id: charbdis_hw
+name: charbdis-handwired-by-il
+type: shield
+url: https://github.com/ilukinov/charbdis-handwired-zmk-config
+
+features:
+  - keys
+  - studio
+
+requires:
+  - nice_nano_v2

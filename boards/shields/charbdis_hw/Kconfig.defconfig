@@ -1,0 +1,6 @@
+if SHIELD_CHARBDIS_HW
+
+config ZMK_KEYBOARD_NAME
+    default "charbdis-hw"
+
+endif # SHIELD_CHARBDIS_HW
