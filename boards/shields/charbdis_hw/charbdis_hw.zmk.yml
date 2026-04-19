@@ -8,5 +8,9 @@ features:
   - keys
   - studio
 
+siblings:
+  - charbdis_hw_left
+  - charbdis_hw_right
+
 requires:
   - nice_nano_v2

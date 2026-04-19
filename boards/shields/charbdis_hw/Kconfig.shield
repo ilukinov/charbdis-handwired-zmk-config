@@ -1,2 +1,5 @@
-config SHIELD_CHARBDIS_HW
-    def_bool $(shields_list_contains,charbdis_hw)
+config SHIELD_CHARBDIS_HW_LEFT
+    def_bool $(shields_list_contains,charbdis_hw_left)
+
+config SHIELD_CHARBDIS_HW_RIGHT
+    def_bool $(shields_list_contains,charbdis_hw_right)
