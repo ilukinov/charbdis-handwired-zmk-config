@@ -3,15 +3,15 @@ if SHIELD_CHARBDIS_HW_LEFT
 config ZMK_KEYBOARD_NAME
     default "Charbdis HW"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
 endif # SHIELD_CHARBDIS_HW_LEFT
 
 if SHIELD_CHARBDIS_HW_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Charbdis HW"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
 
 endif # SHIELD_CHARBDIS_HW_RIGHT
 
