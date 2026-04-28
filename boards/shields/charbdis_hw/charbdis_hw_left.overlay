@@ -5,7 +5,6 @@
 
 &kscan {
     diode-direction = "row2col";
-    col-offset = <7>;
 
     col-gpios
         = <&gpio0 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -23,4 +22,8 @@
         , <&gpio0 2  GPIO_ACTIVE_HIGH>
         , <&gpio1 15 GPIO_ACTIVE_HIGH>
         ;
+};
+
+&default_transform {
+    col-offset = <7>;
 };
